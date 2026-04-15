@@ -2,28 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="0; url=./dist/index.html" />
-    <title>Portfolio Launcher</title>
-    <style>
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        font-family: Arial, sans-serif;
-        background: #0f172a;
-        color: #e2e8f0;
-      }
-      a {
-        color: #22d3ee;
-      }
-    </style>
+    <meta name="description" content="Portfolio of Niño P. Betonio, a Computer Science student passionate about software development, system building, and problem solving." />
+    <title>Niño P. Betonio | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <p>Opening portfolio... If it does not open, <a href="./dist/index.html">click here</a>.</p>
-    <script>
-      window.location.replace('./dist/index.html')
-    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

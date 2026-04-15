@@ -120,6 +120,18 @@ npm run build
 npm run preview
 ```
 
+## Deploy To Vercel
+
+1. Push this project to GitHub.
+2. Go to Vercel and click Add New Project.
+3. Import this repository.
+4. Keep defaults for Vite:
+   - Build Command: npm run build
+   - Output Directory: dist
+5. Click Deploy.
+
+This project includes a vercel.json rewrite so direct URL access works correctly.
+
 ## ⚙️ Configuration
 
 ### Update Personal Information
